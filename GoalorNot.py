@@ -9,7 +9,7 @@ def shootout():
     print("You have 5 penalty shots to score as many goals as possible.\n")
     
     goals = 0
-    
+    #I am making more changes
     for shot_number in range(1, 6):
         input(f"Press Enter to take shot {shot_number}...")
         result = take_shot()
